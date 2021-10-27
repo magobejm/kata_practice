@@ -1,4 +1,4 @@
-package com.example.TDD
+package com.example.TDD.DNI
 
 class DNI(val dni: String) {
     companion object {

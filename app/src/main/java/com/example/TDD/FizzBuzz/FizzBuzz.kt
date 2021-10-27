@@ -1,4 +1,4 @@
-package com.example.TDD
+package com.example.TDD.FizzBuzz
 
 import java.util.*
 
@@ -13,11 +13,11 @@ class FizzBuzz {
         addFilter {
             integer -> (if (integer % 5 == 0) "Buzz" else "")
         }
-        /*addFilter {
+        addFilter {
             integer -> (
                 if (calcPrimus(integer)) "Primus" else ""
             )
-        }*/
+        }
     }
 
     private fun calcPrimus(integer : Int) : Boolean {

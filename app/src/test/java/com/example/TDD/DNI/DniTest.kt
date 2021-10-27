@@ -1,9 +1,9 @@
-package com.example.TDD
+package com.example.TDD.DNI
 
-import com.example.TDD.DNI
-import com.example.TDD.DomainException
-import com.example.TDD.InvalidArgumentException
-import com.example.TDD.LengthException
+import com.example.TDD.DNI.DNI
+import com.example.TDD.DNI.DomainException
+import com.example.TDD.DNI.InvalidArgumentException
+import com.example.TDD.DNI.LengthException
 import org.junit.Test
 
 import org.junit.Assert.*

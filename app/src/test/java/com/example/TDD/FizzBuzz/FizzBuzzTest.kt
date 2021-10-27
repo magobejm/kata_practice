@@ -1,13 +1,12 @@
-package com.example.TDD
+package com.example.TDD.FizzBuzz
 
-import com.example.TDD.FizzBuzz
 import org.junit.Assert.assertArrayEquals
-import org.junit.Before
 import org.junit.Test
 
 
 class FizzBuzzTest {
-    var fizzBuzz: FizzBuzz = FizzBuzz()
+    var fizzBuzz: FizzBuzz =
+        FizzBuzz()
 
 
     @Test
@@ -53,11 +52,11 @@ class FizzBuzzTest {
     }
 
     companion object {
-        private val ARRAY_OF_2_FIZZ = arrayOf(2, "Fizz")
-        private val ARRAY_OF_1_2 = arrayOf<Any>(1, 2)
-        private val ARRAY_OF_FIZZ_7_8_FIZZ = arrayOf("Fizz", 7, 8, "Fizz")
-        private val ARRAY_OF_BUZZ = arrayOf<Any>("Buzz")
+        private val ARRAY_OF_2_FIZZ = arrayOf("Primus", "FizzPrimus")
+        private val ARRAY_OF_1_2 = arrayOf<Any>("Primus", "Primus")
+        private val ARRAY_OF_FIZZ_7_8_FIZZ = arrayOf("Fizz", "Primus", 8, "Fizz")
+        private val ARRAY_OF_BUZZ = arrayOf<Any>("BuzzPrimus")
         private val ARRAY_OF_FIZZBUZZ = arrayOf<Any>("FizzBuzz")
-        private val ARRAY_OF_FIZZBUZZ_TO_FIZZ = arrayOf("FizzBuzz", 16, 17, "Fizz", 19, "Buzz", "Fizz", 22, 23, "Fizz", "Buzz", 26, "Fizz", 28, 29, "FizzBuzz")
+        private val ARRAY_OF_FIZZBUZZ_TO_FIZZ = arrayOf("FizzBuzz", 16, "Primus", "Fizz", "Primus", "Buzz", "Fizz", 22, "Primus", "Fizz", "Buzz", 26, "Fizz", 28, "Primus", "FizzBuzz")
     }
 }
